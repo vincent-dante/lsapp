@@ -14,7 +14,10 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <a class="btn btn-primary" href="/posts/create">Create Post</a>
+                    <br>
+                    <br>
+                    <h3>Your Blog Post</h3>
                 </div>
             </div>
         </div>
